@@ -1495,7 +1495,7 @@ th{
     <td></td>
     <td align="center">100.00%</td>
     <td>%</td>
-    <td>Kcal/hr·m²·°C</td>
+    <td colspan="1"></td>
 </tr>
 
 <tr>
@@ -1506,7 +1506,8 @@ th{
     <td></td>
     <td align="center">100.00%</td>
     <td>%</td>
-    <td>Kcal/hr·m²·°C</td>
+    <td colspan="1"></td>
+
 </tr>
 
 <tr>

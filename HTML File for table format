@@ -1,0 +1,1526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Shell & Tube Heat Exchanger Datasheet</title>
+
+<style>
+body{
+    font-family:Calibri,Arial,sans-serif;
+    margin:20px;
+    background:#f4f4f4;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:#fff;
+}
+
+th,td{
+    border:1px solid #000;
+    padding:6px;
+    font-size:13px;
+    vertical-align:middle;
+}
+
+th{
+    background:#ddebf7;
+}
+
+.section{
+    background:#b4c6e7;
+    font-weight:bold;
+    text-align:center;
+}
+
+.subsection{
+    background:#e2f0d9;
+    font-weight:bold;
+    text-align:center;
+}
+
+.center{
+    text-align:center;
+}
+
+.right{
+    text-align:right;
+}
+</style>
+
+</head>
+
+<body>
+
+<table>
+
+<table class="table table-bordered" style="border-collapse:collapse;width:100%;font-family:Calibri,Arial,sans-serif;font-size:13px;">
+    <tbody>
+
+      <table>
+
+<tr>
+    <th colspan="5" class="header">AARTI INDUSTRIES LTD., VAPI</th>
+    <th colspan="5" class="header">SHELL &amp; TUBE HEAT EXCHANGER</th>
+</tr>
+
+<tr>
+    <td class="label">PROJECT :</td>
+    <td colspan="4"></td>
+
+    <td class="label">MOC / PROJECT NO :</td>
+    <td colspan="4"></td>
+</tr>
+
+<tr>
+    <td class="label">DIVISION :</td>
+    <td colspan="4"></td>
+
+    <td class="label">ZONE :</td>
+    <td colspan="4"></td>
+</tr>
+
+<tr>
+    <td class="label">DOC. NO :</td>
+    <td colspan="4"></td>
+
+    <td class="label">DATE :</td>
+    <td colspan="4"></td>
+</tr>
+
+<tr>
+    <td class="label">PREPARED BY :</td>
+    <td colspan="4">DIVYAM SAVALIYA</td>
+
+    <td class="label">APPROVED BY :</td>
+    <td colspan="4"></td>
+</tr>
+
+<tr>
+    <th colspan="10" class="section">
+        IDENTITY OF HEAT EXCHANGER
+    </th>
+</tr>
+
+<tr>
+    <th width="60">Sr.</th>
+    <th colspan="3">Description</th>
+    <th colspan="6">Value</th>
+</tr>
+
+<tr>
+    <td class="center">1</td>
+    <td colspan="3" class="label">EQUIPMENT NAME</td>
+    <td colspan="6">Benzene Cooler</td>
+</tr>
+
+<tr>
+    <td class="center">2</td>
+    <td colspan="3" class="label">TAG NO</td>
+    <td colspan="6">1-HE001</td>
+</tr>
+
+<tr>
+    <td class="center">3</td>
+    <td colspan="3" class="label">QUANTITY</td>
+    <td colspan="6">1</td>
+</tr>
+
+<tr>
+    <td class="center">4</td>
+    <td colspan="3" class="label">NO. WORKING</td>
+    <td colspan="6">1</td>
+</tr>
+
+<tr>
+    <td class="center">5</td>
+    <td colspan="3" class="label">NO. STANDBY</td>
+    <td colspan="6">0</td>
+</tr>
+
+<tr>
+    <td class="center">6</td>
+    <td colspan="3" class="label">SINGLE / CONNECTED IN</td>
+    <td colspan="6">Single</td>
+</tr>
+
+<tr>
+    <td class="center">7</td>
+    <td colspan="3" class="label">TYPE</td>
+    <td colspan="6">Shell &amp; Tube Heat Exchanger</td>
+</tr>
+
+<tr>
+    <td class="center">8</td>
+    <td colspan="3" class="label">ORIENTATION</td>
+    <td colspan="6">Horizontal</td>
+</tr>
+
+<tr>
+    <td class="center">9</td>
+    <td colspan="3" class="label">SURFACE PER UNIT</td>
+    <td colspan="6">60</td>
+</tr>
+
+<tr>
+    <td class="center">10</td>
+    <td colspan="3" class="label">SHELLS PER UNIT</td>
+    <td colspan="6">1</td>
+</tr>
+
+<tr>
+    <td class="center">11</td>
+    <td colspan="3" class="label">SURFACE PER SHELL</td>
+    <td colspan="6"></td>
+</tr>
+
+
+
+    <!-- ====================================================== -->
+    <!-- PERFORMANCE -->
+    <!-- ====================================================== -->
+
+    <tr style="background:#d9e2f3;font-weight:bold;text-align:center;">
+        <td colspan="10">PERFORMANCE OF SINGLE UNIT / PROPERTIES OF FLUIDS FLOW</td>
+    </tr>
+
+    <tr>
+        <th>Sr.</th>
+        <th>Description</th>
+        <th>Symbol</th>
+        <th>Unit</th>
+        <th>Shell In</th>
+        <th>Shell Out</th>
+        <th>Tube In</th>
+        <th>Tube Out</th>
+        <th colspan="2"></th>
+    </tr>
+
+    <tr>
+        <td>12</td>
+        <td>Fluid Allocation (Shell / Tube)</td>
+        <td></td>
+        <td></td>
+        <td colspan="2" align="center"><b>SHELL SIDE (1)</b></td>
+        <td colspan="2" align="center"><b>TUBE SIDE (2)</b></td>
+        <td colspan="2"></td>
+    </tr>
+
+    <tr>
+        <td>13</td>
+        <td>Fluid (Hot / Cold)</td>
+        <td></td>
+        <td></td>
+        <td colspan="2" align="center">Cold Fluid</td>
+        <td colspan="2" align="center">Hot Fluid</td>
+        <td colspan="2"></td>
+    </tr>
+
+    <tr>
+        <td>14</td>
+        <td>Fluid Name</td>
+        <td></td>
+        <td></td>
+        <td colspan="2">Cooling Water</td>
+        <td colspan="2">Sulfuric Acid</td>
+        <td colspan="2"></td>
+    </tr>
+
+    <tr>
+        <td>15</td>
+        <td>Category</td>
+        <td></td>
+        <td></td>
+        <td colspan="2">NON-HAZARDOUS</td>
+        <td colspan="2">HAZARDOUS</td>
+        <td colspan="2"></td>
+    </tr>
+
+    <tr>
+        <td>16</td>
+        <td>Phase (In / Out)</td>
+        <td></td>
+        <td></td>
+        <td>Liquid</td>
+        <td>Liquid</td>
+        <td>Liquid</td>
+        <td>Liquid</td>
+        <td colspan="2"></td>
+    </tr>
+
+    <tr>
+        <td>17</td>
+        <td>Phase Change</td>
+        <td></td>
+        <td></td>
+        <td colspan="2" align="center">NO PHASE CHANGE</td>
+        <td colspan="2" align="center">NO PHASE CHANGE</td>
+        <td colspan="2"></td>
+    </tr>
+
+    <!-- ====================================================== -->
+    <!-- FLOW RATE -->
+    <!-- ====================================================== -->
+
+    <tr style="background:#e2f0d9;font-weight:bold;text-align:center;">
+        <td colspan="4">FLOW RATE</td>
+        <td>IN</td>
+        <td>OUT</td>
+        <td>IN</td>
+        <td>OUT</td>
+        <td colspan="2"></td>
+    </tr>
+
+    <tr>
+        <td>18</td>
+        <td>Vapor Flow Rate</td>
+        <td>Mv</td>
+        <td>kg/hr</td>
+        <td>-</td><td>-</td><td>-</td><td>-</td>
+        <td colspan="2"></td>
+    </tr>
+
+    <tr>
+        <td>19</td>
+        <td>Liquid Flow Rate</td>
+        <td>Ml</td>
+        <td>kg/hr</td>
+        <td>-</td><td>-</td><td>-</td><td>-</td>
+        <td colspan="2"></td>
+    </tr>
+
+    <tr>
+        <td>20</td>
+        <td>Steam Flow Rate</td>
+        <td>Ms</td>
+        <td>kg/hr</td>
+        <td>-</td><td>-</td><td>-</td><td>-</td>
+        <td colspan="2"></td>
+    </tr>
+
+    <tr>
+        <td>21</td>
+        <td>Water Flow Rate</td>
+        <td>Mw</td>
+        <td>kg/hr</td>
+        <td>15479</td>
+        <td>15479</td>
+        <td>120000</td>
+        <td>120000</td>
+        <td colspan="2"></td>
+    </tr>
+
+    <tr>
+        <td>22</td>
+        <td>Non Condensables Flow Rate</td>
+        <td>Mc</td>
+        <td>kg/hr</td>
+        <td>-</td><td>-</td><td>-</td><td>-</td>
+        <td colspan="2"></td>
+    </tr>
+
+    <tr>
+        <td>23</td>
+        <td>Mass Fluid Flow Rate</td>
+        <td>M</td>
+        <td>kg/hr</td>
+        <td>15479</td>
+        <td>15479</td>
+        <td>120000</td>
+        <td>120000</td>
+        <td colspan="2"></td>
+    </tr>
+
+    <tr>
+        <td>24</td>
+        <td>Volumetric Fluid Flow Rate</td>
+        <td>M</td>
+        <td>m³/hr</td>
+        <td>15.7467</td>
+        <td>15.7467</td>
+        <td>82.6446</td>
+        <td>82.6446</td>
+        <td colspan="2"></td>
+    </tr>
+
+    <!-- ====================================================== -->
+    <!-- PHYSICAL PROPERTIES -->
+    <!-- ====================================================== -->
+
+    <tr style="background:#d9e2f3;font-weight:bold;text-align:center;">
+        <td colspan="4">PHYSICAL / THERMO PHYSICAL PROPERTIES</td>
+        <td>IN</td>
+        <td>OUT</td>
+        <td>IN</td>
+        <td>OUT</td>
+        <td colspan="2"></td>
+    </tr>
+
+    <tr>
+        <td>25</td>
+        <td>Temperature</td>
+        <td>T1i / T1o / T2i / T2o</td>
+        <td>°C</td>
+        <td>32</td><td>36</td><td>38</td><td>37</td>
+        <td colspan="2"></td>
+    </tr>
+
+    <tr>
+        <td rowspan="3">26</td>
+        <td>Density (Liquid)</td>
+        <td>ρL</td>
+        <td>kg/m³</td>
+        <td>987</td><td>983</td><td>1452</td><td>1453</td>
+        <td colspan="2"></td>
+    </tr>
+
+    <tr>
+        <td>Density (Vapour)</td>
+        <td>ρV</td>
+        <td>kg/m³</td>
+        <td>-</td><td>-</td><td>-</td><td>-</td>
+        <td colspan="2"></td>
+    </tr>
+
+    <tr>
+        <td>Density (Selected)</td>
+        <td>ρ</td>
+        <td>kg/m³</td>
+        <td colspan="2" align="center">983</td>
+        <td colspan="2" align="center">1452</td>
+        <td colspan="2"></td>
+    </tr>
+
+    <tr>
+        <td rowspan="4">27</td>
+        <td>Viscosity (Liquid)</td>
+        <td>μL</td>
+        <td>cP</td>
+        <td>0.786</td><td>0.7253</td><td>4.23</td><td>4.345</td>
+        <td colspan="2"></td>
+    </tr>
+
+    <tr>
+        <td>Viscosity (Vapour)</td>
+        <td>μV</td>
+        <td>cP</td>
+        <td>-</td><td>-</td><td>-</td><td>-</td>
+        <td colspan="2"></td>
+    </tr>
+
+    <tr>
+        <td>Water (Reference)</td>
+        <td>μW</td>
+        <td>cP</td>
+        <td colspan="2" align="center">0.75565</td>
+        <td colspan="2"></td>
+        <td colspan="2"></td>
+    </tr>
+
+    <tr>
+        <td>Selected</td>
+        <td>μ</td>
+        <td>cP</td>
+        <td colspan="2" align="center">0.75565</td>
+        <td colspan="2" align="center">4.2875</td>
+        <td colspan="2"></td>
+    </tr>
+
+    <tr>
+        <td>28</td>
+        <td>Molecular Weight Vapor</td>
+        <td></td>
+        <td></td>
+        <td>-</td><td>-</td><td>-</td><td>-</td>
+        <td colspan="2"></td>
+    </tr>
+
+    <tr>
+        <td>29</td>
+        <td>Molecular Weight Non Condensables</td>
+        <td></td>
+        <td></td>
+        <td>-</td><td>-</td><td>-</td><td>-</td>
+        <td colspan="2"></td>
+    </tr>
+
+    <tr>
+        <td>30</td>
+        <td>Thermal Conductivity</td>
+        <td>K1 / K2</td>
+        <td>kcal/m°C</td>
+        <td>0.530</td><td>0.532</td><td>0.314</td><td>0.313</td>
+        <td colspan="2"></td>
+    </tr>
+
+    <tr>
+        <td>31</td>
+        <td>Specific Heat</td>
+        <td>Cp</td>
+        <td>kcal/kg°C</td>
+        <td>1.08</td><td>1.08</td><td>0.5541</td><td>0.5541</td>
+        <td colspan="2"></td>
+    </tr>
+
+    <tr>
+        <td>32</td>
+        <td>Latent Heat</td>
+        <td>λ</td>
+        <td>kcal/kg</td>
+        <td>-</td><td></td><td>-</td><td></td>
+        <td colspan="2"></td>
+    </tr>
+
+    <tr>
+        <td>33</td>
+        <td>Operating Pressure</td>
+        <td></td>
+        <td>kg/cm²g</td>
+        <td colspan="2" align="center">3.7</td>
+        <td colspan="2" align="center">3</td>
+        <td colspan="2"></td>
+    </tr>
+
+    <tr>
+        <td>34</td>
+        <td>Velocity</td>
+        <td></td>
+        <td>m/s</td>
+        <td colspan="2" align="center">0.30571657</td>
+        <td colspan="2" align="center">1.799643799</td>
+        <td colspan="2"></td>
+    </tr>
+
+    <tr>
+        <td>35</td>
+        <td>Pressure Drop (Allow)</td>
+        <td></td>
+        <td>kg/cm²</td>
+        <td colspan="2" align="center">1</td>
+        <td colspan="2" align="center">1</td>
+        <td colspan="2"></td>
+    </tr>
+
+    <tr>
+        <td>36</td>
+        <td>Fouling / Dirt Factor</td>
+        <td></td>
+        <td>m²·hr·°C/kcal</td>
+        <td colspan="2" align="center">0.00035</td>
+        <td colspan="2" align="center">0.00012</td>
+        <td colspan="2"></td>
+    </tr>
+
+    <tr>
+        <td>37</td>
+        <td>Flow Pattern</td>
+        <td colspan="6" align="center"><b>COUNTER CURRENT</b></td>
+        <td colspan="2"></td>
+    </tr>
+<!-- ========================================================= -->
+<!-- THERMODYNAMIC CALCULATIONS OF UNIT -->
+<!-- ========================================================= -->
+
+<tr class="section">
+    <td colspan="10">THERMODYNAMIC CALCULATIONS OF UNIT</td>
+</tr>
+
+<tr>
+    <th width="5%">Sr.</th>
+    <th width="28%">Description</th>
+    <th width="20%">Sub Description</th>
+    <th width="10%">Symbol</th>
+    <th width="10%">Unit</th>
+    <th width="9%">Value 1</th>
+    <th width="9%">Value 2</th>
+    <th width="9%">Value 3</th>
+    <th colspan="2">Remarks</th>
+</tr>
+
+<tr>
+    <td rowspan="3" align="center">37</td>
+    <td rowspan="3">HEAT TRANSFER</td>
+    <td>Shell Side Key Fluid</td>
+    <td align="center">Q<sub>1</sub></td>
+    <td align="center">kcal/hr</td>
+    <td align="right">-66869.28</td>
+    <td></td>
+    <td></td>
+    <td colspan="2"></td>
+</tr>
+
+<tr>
+    <td>Tube Side Key Fluid</td>
+    <td align="center">Q<sub>2</sub></td>
+    <td align="center">kcal/hr</td>
+    <td align="right">66492</td>
+    <td></td>
+    <td></td>
+    <td colspan="2"></td>
+</tr>
+
+<tr>
+    <td><b>Selected Heat Transfer</b></td>
+    <td align="center">Q<sub>t</sub></td>
+    <td align="center">kcal/hr</td>
+    <td align="right"><b>66492</b></td>
+    <td></td>
+    <td></td>
+    <td colspan="2"></td>
+</tr>
+
+<tr>
+    <td rowspan="2" align="center">38</td>
+    <td rowspan="2">LMTD</td>
+    <td></td>
+    <td align="center">ΔTlm</td>
+    <td align="center">°C</td>
+    <th>Counter Current</th>
+    <th>Co-Current</th>
+    <th>Selected</th>
+    <td colspan="2"></td>
+</tr>
+
+<tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td align="right">3.274070004</td>
+    <td align="right">2.790553133</td>
+    <td align="right">3.274070004</td>
+    <td colspan="2"></td>
+</tr>
+
+<tr>
+    <td rowspan="3" align="center">39</td>
+    <td rowspan="3">LMTD Correction Factor</td>
+    <td>R</td>
+    <td align="center">R</td>
+    <td></td>
+    <td align="right">0.25</td>
+    <td></td>
+    <td></td>
+    <td colspan="2">Use P &amp; R Graph</td>
+</tr>
+
+<tr>
+    <td>P / S</td>
+    <td align="center">P</td>
+    <td></td>
+    <td align="right">0.666666667</td>
+    <td></td>
+    <td></td>
+    <td colspan="2"></td>
+</tr>
+
+<tr>
+    <td>Correction Factor</td>
+    <td align="center">Ft</td>
+    <td>-</td>
+    <td>From Graph</td>
+    <td align="right">0.931234859</td>
+    <td>Using Formula</td>
+    <td colspan="2"></td>
+</tr>
+
+<tr>
+    <td align="center">40</td>
+    <td>LMTD × Ft</td>
+    <td></td>
+    <td align="center">ΔTlmc</td>
+    <td>°C</td>
+    <td>-</td>
+    <td></td>
+    <td align="right">3.048928118</td>
+    <td colspan="2"></td>
+</tr>
+
+<tr>
+    <td align="center">41</td>
+    <td>Selected Actual LMTD</td>
+    <td></td>
+    <td align="center">ΔTlmc</td>
+    <td>°C</td>
+    <td align="right">3.048928118</td>
+    <td></td>
+    <td></td>
+    <td colspan="2"></td>
+</tr>
+
+<tr>
+    <td align="center">42</td>
+    <td>Heat Transfer Coefficient (Assumed)</td>
+    <td></td>
+    <td align="center">U<sub>assumed</sub></td>
+    <td>kcal/hr·m²·°C</td>
+    <td align="right">410</td>
+    <td></td>
+    <td></td>
+    <td colspan="2"></td>
+</tr>
+
+<tr>
+    <td align="center">43</td>
+    <td>Heat Transfer Coefficient (Calculated)</td>
+    <td></td>
+    <td align="center">U<sub>calculated</sub></td>
+    <td>kcal/hr·m²·°C</td>
+    <td align="right">384.5943583</td>
+    <td colspan="2">Difference = 6.19650</td>
+    <td colspan="2"></td>
+</tr>
+
+<tr>
+    <td align="center">44</td>
+    <td>Heat Transfer Area</td>
+    <td></td>
+    <td align="center">Aht</td>
+    <td>m²</td>
+    <td align="right">53.19102435</td>
+    <td>Calculated</td>
+    <td align="right">60</td>
+    <td colspan="2">Selected Value</td>
+</tr>
+
+<!-- ========================================================= -->
+<!-- MATERIAL OF CONSTRUCTION -->
+<!-- ========================================================= -->
+
+<tr class="section">
+    <td colspan="10">MATERIAL OF CONSTRUCTION (MOC)</td>
+</tr>
+
+<tr>
+    <th>Sr.</th>
+    <th>Component</th>
+    <th>MOC</th>
+    <th colspan="2">Thermal Conductivity (Kw)</th>
+    <th>Entered</th>
+    <th>Unit</th>
+    <th>Selected</th>
+    <th colspan="2"></th>
+</tr>
+
+<tr>
+    <td align="center">45</td>
+    <td>Tube</td>
+    <td>Carbon Steel</td>
+    <td colspan="2" align="center">45</td>
+    <td align="center">45</td>
+    <td align="center">W/m-K</td>
+    <td align="center">45</td>
+    <td colspan="2"></td>
+</tr>
+
+<tr>
+    <td align="center">46</td>
+    <td>Shell</td>
+    <td>Carbon Steel</td>
+    <td colspan="2" align="center">45</td>
+    <td align="center">45</td>
+    <td align="center">W/m-K</td>
+    <td align="center">45</td>
+    <td colspan="2"></td>
+</tr>
+
+<tr>
+    <td align="center">47</td>
+    <td>Baffle</td>
+    <td>Carbon Steel</td>
+    <td colspan="2" align="center">45</td>
+    <td align="center">45</td>
+    <td align="center">W/m-K</td>
+    <td align="center">45</td>
+    <td colspan="2"></td>
+</tr>
+
+<!-- ========================================================= -->
+<!-- SELECTION OF BODY -->
+<!-- ========================================================= -->
+
+<tr class="section">
+    <td colspan="10">SELECTION OF BODY</td>
+</tr>
+
+<tr>
+    <th colspan="3">Front Head Stationary Type</th>
+    <th colspan="4">Shell Body</th>
+    <th colspan="3">Rear End Head Type</th>
+</tr>
+
+<tr>
+    <td colspan="3" align="center">
+        <b>BONNET (INTEGRAL COVER)</b><br>
+        Type <b>B</b>
+    </td>
+
+    <td colspan="4" align="center">
+        <b>ONE PASS SHELL</b><br>
+        Type <b>E</b>
+    </td>
+
+    <td colspan="3" align="center">
+        <b>FIXED TUBESHEET</b><br>
+        Type <b>M</b>
+    </td>
+</tr>
+
+<!-- ========================================================= -->
+<!-- TUBE DESIGN CALCULATIONS -->
+<!-- ========================================================= -->
+
+<tr class="section">
+    <td colspan="10">TUBE DESIGN CALCULATIONS</td>
+</tr>
+
+<tr>
+    <th>Sr.</th>
+    <th>Data Type</th>
+    <th>Properties</th>
+    <th>Symbol</th>
+    <th>Unit</th>
+    <th>Calculation / Selection</th>
+    <th>Final Value</th>
+    <th>Final Unit</th>
+    <th colspan="2">Remarks</th>
+</tr>
+
+<tr>
+    <td>47</td>
+    <td rowspan="2">Assume Tube Dia / Length</td>
+    <td>Length of Tube</td>
+    <td>Lt</td>
+    <td>ft</td>
+    <td align="center">12</td>
+    <td align="right">3.6576</td>
+    <td>m</td>
+    <td colspan="2"></td>
+</tr>
+
+<tr>
+    <td>48</td>
+    <td>Outer Dia. of Tube</td>
+    <td>do</td>
+    <td>mm</td>
+    <td align="center">19</td>
+    <td align="right">0.019</td>
+    <td>m</td>
+    <td colspan="2"></td>
+</tr>
+
+<tr>
+    <td>49</td>
+    <td>Select BWG Value</td>
+    <td>BWG Value</td>
+    <td>δ</td>
+    <td>No.</td>
+    <td align="center">15</td>
+    <td></td>
+    <td></td>
+    <td colspan="2"></td>
+</tr>
+
+<tr>
+    <td>50</td>
+    <td></td>
+    <td>Tube Thickness</td>
+    <td>dt</td>
+    <td>mm</td>
+    <td align="center">1.8288</td>
+    <td align="right">0.0018288</td>
+    <td>m</td>
+    <td colspan="2"></td>
+</tr>
+
+<tr>
+    <td>51</td>
+    <td rowspan="4">Calculated Values</td>
+    <td>Effective Length of Tube</td>
+    <td>Leff</td>
+    <td>ft</td>
+    <td align="center">11.9835958</td>
+    <td align="right">3.6526</td>
+    <td>m</td>
+    <td colspan="2"></td>
+</tr>
+
+<tr>
+    <td>52</td>
+    <td>Inner Dia. of Tube</td>
+    <td>di</td>
+    <td>mm</td>
+    <td align="center">15.3424</td>
+    <td align="right">0.0153424</td>
+    <td>m</td>
+    <td colspan="2"></td>
+</tr>
+
+<tr>
+    <td>53</td>
+    <td>Outer Surface Area (Single Tube)</td>
+    <td>Ast</td>
+    <td>m²</td>
+    <td align="center">0.218323097</td>
+    <td align="right">0.218323097</td>
+    <td>m²</td>
+    <td colspan="2"></td>
+</tr>
+
+<tr>
+    <td>54</td>
+    <td>Number of Tubes Required</td>
+    <td>Nt</td>
+    <td>Nos.</td>
+    <td align="center">274.8220457</td>
+    <td align="center">275</td>
+    <td>Nos.</td>
+    <td colspan="2"></td>
+</tr>
+
+<tr>
+    <td>55</td>
+    <td>Select Number of Passes</td>
+    <td>Number of Passes</td>
+    <td>Np</td>
+    <td>Nos.</td>
+    <td align="center">4</td>
+    <td align="center">4</td>
+    <td>Nos.</td>
+    <td colspan="2"></td>
+</tr>
+
+<tr>
+    <td>56</td>
+    <td>Calculated Tubes per Pass</td>
+    <td>Number of Tubes per Pass</td>
+    <td>Ntp</td>
+    <td>Nos.</td>
+    <td align="center">68.70551142</td>
+    <td align="center">69</td>
+    <td>Nos.</td>
+    <td colspan="2"></td>
+</tr>
+
+<tr>
+    <td>57</td>
+    <td>Select Tube Arrangement</td>
+    <td>Tube Arrangement</td>
+    <td>Tp</td>
+    <td>-</td>
+    <td colspan="3">Triangular Pitch</td>
+    <td colspan="2"></td>
+</tr>
+
+<tr>
+    <td>58</td>
+    <td></td>
+    <td>Constant K1 (Triangular)</td>
+    <td>K1t</td>
+    <td>-</td>
+    <td align="center">0.175</td>
+    <td></td>
+    <td></td>
+    <td colspan="2"></td>
+</tr>
+
+<tr>
+    <td>59</td>
+    <td></td>
+    <td>Constant N1 (Triangular)</td>
+    <td>N1t</td>
+    <td>-</td>
+    <td align="center">2.285</td>
+    <td></td>
+    <td></td>
+    <td colspan="2"></td>
+</tr>
+
+<tr>
+    <td>60</td>
+    <td>Calculation of Tube Pitch</td>
+    <td>Tube Pitch</td>
+    <td>Pt</td>
+    <td>mm</td>
+    <td align="center">23.75</td>
+    <td align="right">0.02375</td>
+    <td>m</td>
+    <td colspan="2"></td>
+</tr>
+
+<tr>
+    <td>61</td>
+    <td>Calculation of Bundle Diameter</td>
+    <td>Bundle Diameter</td>
+    <td>Db</td>
+    <td>mm</td>
+    <td align="center">475.8242889</td>
+    <td align="right">0.475824289</td>
+    <td>m</td>
+    <td colspan="2"></td>
+</tr>
+
+<!-- ========================================================= -->
+<!-- SHELL DESIGN -->
+<!-- ========================================================= -->
+
+<tr class="section">
+    <td colspan="10">SHELL DESIGN</td>
+</tr>
+
+<tr>
+    <td>62</td>
+    <td>Selection of Shell Type</td>
+    <td colspan="6">Fixed Tube &amp; U-Tube</td>
+    <td colspan="2"></td>
+</tr>
+
+<tr>
+    <td>63</td>
+    <td>Clearance Calculation</td>
+    <td>Tube Clearance</td>
+    <td>Ct</td>
+    <td>mm</td>
+    <td align="center">12.5</td>
+    <td align="right">0.0125</td>
+    <td>m</td>
+    <td colspan="2"></td>
+</tr>
+
+<tr>
+    <td>64</td>
+    <td rowspan="2">Shell Diameter Calculation</td>
+    <td>Shell Inner Dia.</td>
+    <td>Ds</td>
+    <td>mm</td>
+    <td align="center">488.3242889</td>
+    <td align="right">0.488324289</td>
+    <td>m</td>
+    <td colspan="2"></td>
+</tr>
+
+<tr>
+    <td>65</td>
+    <td>Shell Equivalent Dia.</td>
+    <td>Dh</td>
+    <td>mm</td>
+    <td align="center">13.49095</td>
+    <td align="right">0.01349095</td>
+    <td>m</td>
+    <td colspan="2"></td>
+</tr>
+
+<tr>
+    <td>66</td>
+    <td>Check L/D Ratio</td>
+    <td>L/D of Shell</td>
+    <td>-</td>
+    <td>-</td>
+    <td align="center">7.69</td>
+    <td align="center">OK</td>
+    <td></td>
+    <td colspan="2"></td>
+</tr>
+
+<tr>
+    <td>67</td>
+    <td>Selection of Baffle Type</td>
+    <td colspan="6">Segmental</td>
+    <td colspan="2"></td>
+</tr>
+
+<tr>
+    <td>68</td>
+    <td>Baffle Arrangement</td>
+    <td colspan="6">Vertical</td>
+    <td colspan="2"></td>
+</tr>
+
+<tr>
+    <td>69</td>
+    <td>Calculation of Baffle</td>
+    <td>Baffle Spacing</td>
+    <td>Lb</td>
+    <td>mm</td>
+    <td align="center">146.4972867</td>
+    <td align="right">0.146497287</td>
+    <td>m</td>
+    <td colspan="2"></td>
+</tr>
+
+<tr>
+    <td>70</td>
+    <td>Calculation of Number of Baffles</td>
+    <td>Number of Baffles</td>
+    <td>Nb</td>
+    <td>Nos.</td>
+    <td align="center">4.285399382</td>
+    <td align="center">4.285399382</td>
+    <td>Nos.</td>
+    <td colspan="2"></td>
+</tr>
+
+<tr>
+    <td>71</td>
+    <td>Calculated Area</td>
+    <td>Area of Shell</td>
+    <td>As</td>
+    <td>mm²</td>
+    <td align="center">14307.63667</td>
+    <td align="right">14.30763667</td>
+    <td>m²</td>
+    <td colspan="2"></td>
+</tr>
+
+<!-- ========================================================= -->
+<!-- FLOW AREA -->
+<!-- ========================================================= -->
+
+<tr class="section">
+    <td colspan="10">FLOW AREA</td>
+</tr>
+
+<tr>
+    <td>72</td>
+    <td>Shell Area Calculation</td>
+    <td>Shell Side Flow Area</td>
+    <td>Afs</td>
+    <td>mm²</td>
+    <td align="center">37651.67544</td>
+    <td align="right">37.65167544</td>
+    <td>m²</td>
+    <td colspan="2"></td>
+</tr>
+
+<tr>
+    <td>73</td>
+    <td>Tube Area Calculation</td>
+    <td>Tube Side Flow Area</td>
+    <td>Aft</td>
+    <td>mm²</td>
+    <td align="center">12.75632498</td>
+    <td align="right">0.0128</td>
+    <td>m²</td>
+    <td colspan="2"></td>
+</tr>
+
+<!-- ========================================================= -->
+<!-- VELOCITY CALCULATIONS -->
+<!-- ========================================================= -->
+
+<tr class="section">
+    <td colspan="10">VELOCITY CALCULATIONS</td>
+</tr>
+
+<tr>
+    <td>74</td>
+    <td>Shell Velocity Calculation</td>
+    <td>Velocity</td>
+    <td>Us</td>
+    <td>m/s</td>
+    <td align="center">0.30571657</td>
+    <td colspan="2">Decrease Shell Dia / Pitch</td>
+    <td colspan="2"></td>
+</tr>
+
+<tr>
+    <td>75</td>
+    <td>Tube Velocity Calculation</td>
+    <td>Velocity</td>
+    <td>Ut</td>
+    <td>m/s</td>
+    <td align="center">1.799643799</td>
+    <td align="center">OK</td>
+    <td></td>
+    <td colspan="2"></td>
+</tr>
+
+<!-- ========================================================= -->
+<!-- DIMENSIONLESS NUMBERS -->
+<!-- ========================================================= -->
+
+<tr class="section">
+    <td colspan="9">DIMENSIONLESS NUMBERS</td>
+</tr>
+
+<tr>
+    <th>Sr. No.</th>
+    <th>Calculation</th>
+    <th>Property</th>
+    <th>Symbol</th>
+    <th>Unit</th>
+    <th>Calculated Value</th>
+    <th>Converted / Selected</th>
+    <th>Remarks</th>
+    <th>Final Status</th>
+</tr>
+
+<tr>
+    <td>68</td>
+    <td>Reynolds Number</td>
+    <td>Shell Side NRe</td>
+    <td>NRe<sub>s</sub></td>
+    <td>-</td>
+    <td align="right">5365.304102</td>
+    <td></td>
+    <td>Transition / Turbulent</td>
+    <td></td>
+</tr>
+
+<tr>
+    <td>69</td>
+    <td>Reynolds Number</td>
+    <td>Tube Side NRe</td>
+    <td>NRe<sub>t</sub></td>
+    <td>-</td>
+    <td align="right">9350.661571</td>
+    <td></td>
+    <td>Transition / Turbulent</td>
+    <td></td>
+</tr>
+
+<tr>
+    <td>70</td>
+    <td>Prandtl Number</td>
+    <td>Shell Side</td>
+    <td>Pr<sub>s</sub></td>
+    <td>-</td>
+    <td align="right">5.765977358</td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+
+<tr>
+    <td>71</td>
+    <td>Prandtl Number</td>
+    <td>Tube Side</td>
+    <td>Pr<sub>t</sub></td>
+    <td>-</td>
+    <td align="right">7.56593551</td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+
+<tr>
+    <td>72</td>
+    <td>Nusselt Number</td>
+    <td>Shell Side</td>
+    <td>Nu<sub>s</sub></td>
+    <td>-</td>
+    <td align="right">72.22165843</td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+
+<tr>
+    <td>73</td>
+    <td>Nusselt Number</td>
+    <td>Tube Side</td>
+    <td>Nu<sub>t</sub></td>
+    <td>-</td>
+    <td align="right">74.42115841</td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+
+<!-- ========================================================= -->
+<!-- HEAT TRANSFER COEFFICIENT -->
+<!-- ========================================================= -->
+
+<tr class="section">
+    <td colspan="9">HEAT TRANSFER COEFFICIENT</td>
+</tr>
+
+<tr>
+    <th>Sr. No.</th>
+    <th>Calculation</th>
+    <th>Property</th>
+    <th>Symbol</th>
+    <th>Unit</th>
+    <th>Calculated Value</th>
+    <th>Converted Value</th>
+    <th>Remarks</th>
+    <th>Final Unit</th>
+</tr>
+
+<tr>
+    <td>74</td>
+    <td>HTC Calculation</td>
+    <td>Shell Side HTC</td>
+    <td>h<sub>o</sub></td>
+    <td>W/m·K</td>
+    <td align="right">1503.057997</td>
+    <td align="center">0.004</td>
+    <td></td>
+    <td>Kcal/m²·hr·°C</td>
+</tr>
+
+<tr>
+    <td>75</td>
+    <td>HTC Calculation (Graph)</td>
+    <td>Tube Side HTC</td>
+    <td>h<sub>i</sub></td>
+    <td>W/m·K</td>
+    <td align="right">1.492668427</td>
+    <td align="center">0.004</td>
+    <td></td>
+    <td>Kcal/m²·hr·°C</td>
+</tr>
+
+<tr>
+    <td>76</td>
+    <td>HTC Calculation (Formula)</td>
+    <td>Tube Side HTC</td>
+    <td>h<sub>i</sub></td>
+    <td>W/m·K</td>
+    <td align="right">6733.889362</td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+
+<tr>
+    <td>77</td>
+    <td>HTC Calculation for Water</td>
+    <td>Tube Side HTC</td>
+    <td>h<sub>w</sub></td>
+    <td>W/m·K</td>
+    <td align="right">6733.889362</td>
+    <td></td>
+    <td>Water at Tube Side</td>
+    <td></td>
+</tr>
+
+<tr>
+    <td>78</td>
+    <td>Final HTC Selection</td>
+    <td>Tube Side HTC</td>
+    <td>h<sub>i</sub></td>
+    <td>W/m·K</td>
+    <td align="right">6733.889362</td>
+    <td align="right">5790.101099</td>
+    <td></td>
+    <td>Kcal/m²·hr·°C</td>
+</tr>
+
+<!-- ========================================================= -->
+<!-- PRESSURE DROP CALCULATION -->
+<!-- ========================================================= -->
+
+<tr class="section">
+    <td colspan="9">PRESSURE DROP CALCULATION</td>
+</tr>
+
+<tr>
+    <th>Sr. No.</th>
+    <th>Calculation</th>
+    <th>Property</th>
+    <th>Symbol</th>
+    <th>Unit</th>
+    <th>Calculated Value</th>
+    <th>Allowable / Difference</th>
+    <th>Remarks</th>
+    <th>Status</th>
+</tr>
+
+<tr>
+    <td>79</td>
+    <td>Pressure Drop Calculation</td>
+    <td>Shell Side Pressure Drop</td>
+    <td>ΔP<sub>s</sub></td>
+    <td>kg/cm²</td>
+    <td align="right">0.016151652</td>
+    <td align="center">0.045</td>
+    <td>Jh value from graph</td>
+    <td></td>
+</tr>
+
+<tr>
+    <td>80</td>
+    <td></td>
+    <td>ΔPs<sub>calculated</sub> − ΔPs<sub>allow</sub></td>
+    <td></td>
+    <td></td>
+    <td align="right">0.983848348</td>
+    <td></td>
+    <td colspan="2"><strong>Design Accepted</strong></td>
+</tr>
+
+<tr>
+    <td>81</td>
+    <td>Pressure Drop Calculation</td>
+    <td>Tube Side Pressure Drop</td>
+    <td>ΔP<sub>t</sub></td>
+    <td>kg/cm²</td>
+    <td align="right">0.851659932</td>
+    <td align="center">0.0035</td>
+    <td>Jh value from graph</td>
+    <td></td>
+</tr>
+
+<tr>
+    <td>82</td>
+    <td></td>
+    <td>ΔPt<sub>calculated</sub> − ΔPt<sub>allow</sub></td>
+    <td></td>
+    <td></td>
+    <td align="right">0.148340068</td>
+    <td></td>
+    <td colspan="2"><strong>Design Accepted</strong></td>
+</tr>
+
+<!-- ===================================================== -->
+<!-- OVERALL HEAT TRANSFER COEFFICIENT -->
+<!-- ===================================================== -->
+
+<tr class="section">
+    <td colspan="9"><b>OVERALL HEAT TRANSFER COEFFICIENT</b></td>
+</tr>
+
+<tr>
+    <td rowspan="3" align="center"><b>83</b></td>
+    <td rowspan="3"><b>Overall HTC Calculations</b></td>
+    <td align="center"><b>Inside Tube Flow</b></td>
+    <td colspan="5" align="center">
+
+        <b>
+        1/U<sub>o</sub> =
+        1/h<sub>o</sub> +
+        1/h<sub>do</sub> +
+        d<sub>o</sub> ln(d<sub>o</sub>/d<sub>i</sub>)
+        -------------------------- +
+               2K<sub>w</sub>
+
+        d<sub>i</sub>
+        ----------- +
+        d<sub>i</sub>h<sub>di</sub>
+
+        d<sub>i</sub>
+        ----------- 
+        d<sub>i</sub>h<sub>o</sub>
+
+        </b>
+
+    </td>
+
+    <td align="center">
+        <b>384.5943583</b><br>
+        Kcal/hr·m²·°C
+    </td>
+</tr>
+
+<tr align="center">
+    <td><b>Uo</b></td>
+    <td><b>ho</b></td>
+    <td><b>hdo</b></td>
+    <td><b>2Kw</b></td>
+    <td><b>di × hdi</b></td>
+    <td><b>di × ho</b></td>
+    <td></td>
+</tr>
+
+<tr align="center">
+    <td>0.00106</td>
+    <td>0.00012</td>
+    <td>22153.54027</td>
+    <td>3538.28047</td>
+    <td>309.5995411</td>
+    <td></td>
+    <td></td>
+</tr>
+
+<tr>
+    <td rowspan="5" align="center"><b>84</b></td>
+    <td>Tube Side</td>
+    <td>Ht</td>
+    <td>Kcal/hr·m²·°C</td>
+    <td align="right">0.00067</td>
+    <td></td>
+    <td align="center">31.68%</td>
+    <td>%</td>
+    <td></td>
+</tr>
+
+<tr>
+    <td>Wall Resistance</td>
+    <td>Hw</td>
+    <td>Kcal/hr·m²·°C</td>
+    <td align="right">0.00005</td>
+    <td></td>
+    <td align="center">2.41%</td>
+    <td>%</td>
+    <td></td>
+</tr>
+
+<tr>
+    <td>Shell Side</td>
+    <td>Hs</td>
+    <td>Kcal/hr·m²·°C</td>
+    <td align="right">0.00017</td>
+    <td></td>
+    <td align="center">3.92%</td>
+    <td>%</td>
+    <td></td>
+</tr>
+
+<tr>
+    <td>Dirt</td>
+    <td>Hd</td>
+    <td>Kcal/hr·m²·°C</td>
+    <td align="right">0.00047</td>
+    <td></td>
+    <td align="center">62.00%</td>
+    <td>%</td>
+    <td></td>
+</tr>
+
+<tr>
+    <td><b>Total Resistance</b></td>
+    <td>Htotal</td>
+    <td>Kcal/hr·m²·°C</td>
+    <td align="right"><b>0.00135</b></td>
+    <td colspan="4"></td>
+</tr>
+
+<tr>
+    <td rowspan="2" align="center"><b>87</b></td>
+    <td>Overall HTC (Dirty Service)</td>
+    <td>Udirty</td>
+    <td>Kcal/hr·m²·°C</td>
+    <td align="right">739.01179</td>
+    <td></td>
+    <td align="center">100.00%</td>
+    <td>%</td>
+    <td>Kcal/hr·m²·°C</td>
+</tr>
+
+<tr>
+    <td>Overall HTC (Clean Service)</td>
+    <td>Uclean</td>
+    <td>Kcal/hr·m²·°C</td>
+    <td align="right">1132.29972</td>
+    <td></td>
+    <td align="center">100.00%</td>
+    <td>%</td>
+    <td>Kcal/hr·m²·°C</td>
+</tr>
+
+<tr>
+    <td align="center"><b>88</b></td>
+    <td>HTC Assumed V/S HTC Calculated</td>
+    <td>ΔU</td>
+    <td>-</td>
+    <td align="right"><b>6.19650</b></td>
+    <td colspan="4"></td>
+</tr>
+
+    </tbody>
+</table>
+</table>
+
+</body>
+</html>
